@@ -1,0 +1,42 @@
+@import '../../styles/_colors.scss';
+
+.Title-root {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title-copy {
+    display: flex;
+    align-items: space-between;
+    margin: 0.2em 0;
+    text-align: center;
+}
+
+.Title-bar {
+    width: 20em;
+    height: .75em;
+    border-top: 0.25em solid $lavender;
+    border-bottom: 0.25em solid $lavender;
+    transform: skew(-10deg);
+    .top {
+        margin-left: 0.8em;
+    }
+    .bottom {
+        margin-right: 0.8em;
+    }
+}
+
+.Titler-letter {
+    display: flex;
+}
+
+.h1 {
+    font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
+    // letter-spacing: 0.3em;
+    color: $blue;
+}
