@@ -12,13 +12,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  .p {
+  color: $lavender;
+}
+
+.App-par {
+    font-size: 18px;
+    font-weight: 400;
     margin-left: 10px;
     margin-right: 10px;
   }
-
-  color: $lavender;
-}
 
 .App-link {
   color: $blue;
