@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax';
 import './Title.scss';
 
-
 const copy = 'Mother Lugger'.split('');
-console.log(copy.length)
 
 class Title extends Component {
     render() {
@@ -15,7 +13,7 @@ class Title extends Component {
                     {copy.map((letter, i) => (
                         <Parallax
                             key={`copy-${i}`}
-                            x={[0, 100* (i-6)]}
+                            x={[-10 * (i - 6) + 'px', 10 * (i - 6) + 'px']}
                             className='Title-letter'
                         >
                             {letter}
