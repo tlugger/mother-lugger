@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import { Title, Libby } from '../../components';
+import { ImageBar,
+         Libby,
+         Title } from '../../components';
 import './App.scss';
 
 class App extends Component {
@@ -10,6 +12,7 @@ class App extends Component {
         <ParallaxProvider>
           <div className="App-section">
             <Title/>
+            <ImageBar/>
             <p className="App-par">
               A place to recognize the amazing women in my life.
             </p>

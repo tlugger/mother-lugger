@@ -1,0 +1,22 @@
+@import '../../styles/_colors.scss';
+
+.ImageBar-root {
+    display: flex;
+    width: 50%;
+    flex-flow: column wrap;
+    align-items: space-between;
+    align-items: center;
+}
+
+.ImageBar-copy {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0.2em 0;
+}
+
+.ImageBar-svg {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}  
