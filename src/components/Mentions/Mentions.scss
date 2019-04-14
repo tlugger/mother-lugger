@@ -1,0 +1,31 @@
+@import '../../styles/_colors.scss';
+
+.Mentions-root {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+}
+
+.Mentions-copy {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2em 0;
+    width: 100%;
+}
+
+.Mentions-container {
+    align-items: center;
+    background: $purple;
+    border-radius: 10%;
+    display: block;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.Mentions-svg {
+    margin-top: 10px;
+    max-width: 50%;
+}  
