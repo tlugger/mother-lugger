@@ -1,40 +1,38 @@
 @import '../../styles/_colors.scss';
 
 .Libby-root {
+    align-items: center;
     display: flex;
     flex-flow: column wrap;
-    align-items: space-around;
     justify-content: center;
-    align-items: center;
 }
 
 .Libby-copy {
     display: flex;
-    align-items: space-between;
     margin: 0.2em 0;
     text-align: center;
 }
 
 .Libby-img {
-    margin-top: 10px;
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 40%;
+    margin-top: 10px;
 }
 
 .Libby-svg {
     &--left {
-        max-width: 15%;
         margin-left: 10px;
+        max-width: 15%;
     }  
     &--right {
-        max-width: 15%;
         margin-right: 10px;
+        max-width: 15%;
     }
 }
 
 .h1 {
-    font-size: 1.75em;
-    font-weight: 600;
-    font-style: bold;
     color: $blue;
+    font-size: 1.75em;
+    font-style: bold;
+    font-weight: 600;
 }
