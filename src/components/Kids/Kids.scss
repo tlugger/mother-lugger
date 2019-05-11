@@ -1,0 +1,47 @@
+.Kids-root {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kids-copy {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0.2em 0;
+    text-align: center;
+}
+
+.Kids-img-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0.2em 0;
+    text-align: center;
+    @media screen and (max-width: 760px) {
+        flex-wrap: wrap;
+    }
+}
+
+.Kids-title {
+    bottom: 0;
+}
+
+.Kids-img {
+    border-radius: 50%;
+    max-width: 15%;
+    @media screen and (max-width: 760px) {
+        max-width: 25%;
+    }
+    margin-left: 15px;
+}
+
+.Kids-fam {
+    border-radius: 5%;
+    max-width: 80%;
+    @media screen and (max-width: 760px) {
+        max-width: 35%;
+    }
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

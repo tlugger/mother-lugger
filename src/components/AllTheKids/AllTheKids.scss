@@ -1,0 +1,50 @@
+@import '../../styles/_colors.scss';
+
+.AllTheKids-root {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.AllTheKids-title {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $blue;
+    font-style: italic;
+    font-size: 1.75em;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.AllTheKids-copy {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0.2em 0;
+    text-align: center;
+}
+
+.AllTheKids-img-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0.2em 0;
+    text-align: center;
+    @media screen and (max-width: 760px) {
+        flex-wrap: wrap;
+    }
+}
+
+.AllTheKids-title {
+    bottom: 0;
+}
+
+.AllTheKids-fam {
+    border-radius: 5%;
+    max-width: 80%;
+    @media screen and (max-width: 760px) {
+        max-width: 40%;
+    }
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

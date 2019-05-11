@@ -1,6 +1,9 @@
+export { default as AllTheKids } from './AllTheKids/AllTheKids';
 export { default as App } from './App/App';
 export { default as ImageBar } from './ImageBar/ImageBar';
+export { default as Kids } from './Kids/Kids';
 export { default as Libby } from './Libby/Libby';
 export { default as Mentions } from './Mentions/Mentions';
 export { default as Overview } from './Overview/Overview';
+export { default as Pets } from './Pets/Pets';
 export { default as Title } from './Title/Title';

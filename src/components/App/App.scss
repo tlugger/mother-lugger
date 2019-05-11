@@ -26,6 +26,24 @@
   color: $blue;
 }
 
+.App-button {
+  background: $purple;
+  border-radius: 10%;
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.App-title {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: $blue;
+  font-style: italic;
+  font-size: 1.75em;
+  font-style: bold;
+  font-weight: 600;
+}
+
 body {
       color: $white;
       font-size: 12px;

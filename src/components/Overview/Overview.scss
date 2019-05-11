@@ -1,12 +1,11 @@
 .Overview-root {
-    display: flex;
-    flex-flow: column wrap;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
 .Overview-copy {
-    display: flex;
+    display: block;
     position: relative;
     width: 100%;
     margin: 0.2em 0;
@@ -14,15 +13,11 @@
 }
 
 .Overview-title {
-    position: absolute;
-    right: 15%;
     bottom: 0;
 }
 
-.Overview-svg {
-    position: absolute;
-    left: 15%;
-    bottom: 50%;
+.Overview-img {
+    border-radius: 50%;
     max-width: 25%;
     margin-left: 15px;
 }
